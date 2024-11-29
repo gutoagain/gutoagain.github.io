@@ -1,0 +1,153 @@
+/* Bloco de menu */
+.menu {
+    width: 100%;
+    max-width: 1400px;
+    height: 520px; /* Altura ajustada */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.list {
+    width: 1024px;
+    height: 500px;
+    /*background-color: bisque;*/
+    position: relative; /* Necessário para alinhar a imagem dentro da div */
+    overflow: hidden; /* Garante que a imagem não ultrapasse a div */
+    align-items: center;
+}
+
+/* Estilo para as imagens dentro do li */
+.list img {
+    width: 100%; /* Inicialmente maior que a div */
+    height: auto; /* Mantém proporção */
+    position: initial; /* Permite o alinhamento relativo à div */
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -10%); /* Centraliza a imagem dentro da div */
+    cursor: all-scroll;
+}
+
+
+
+
+
+
+/* Responsividade para telas menores */
+@media (max-width: 1420px) {
+    .list {
+        height: 500px;
+    }
+    .list img {
+        width: 100%; /* Diminui proporcionalmente */
+    }
+}
+
+@media (max-width: 1024px) {
+    .menu {
+        height: 0%;
+    }
+    .list {
+        height: 400px;
+    }
+    .list img {
+        width: 100%; /* Diminui proporcionalmente */
+    }
+}
+
+@media (max-width: 768px) {
+    .top-texto {
+        margin-top: 50px;
+    }
+    .list {
+        height: 400px;
+    }
+    .list img {
+        width: 140%; /* Reduz ainda mais em telas pequenas */
+        transform: translate(-13%, -10%);
+    }    
+}
+
+@media (max-width: 480px) {
+    .list {
+        height: 330px;
+    }
+    .list img {
+        width: 135%; /* Adapta para dispositivos móveis */
+        transform: translate(-12%, -0%);
+    }
+}
+
+@media (max-width: 360px) {
+    .list {
+        height: 300px;
+    }
+    .list img {
+        width: 135%; /* Adapta para dispositivos móveis */
+        transform: translate(-12%, 08%);
+    }
+}
+
+
+
+
+
+
+/* Para telas em formato paisagem (landscape) */
+@media (orientation: landscape) and (max-width: 1420px) {
+    .list {
+        height: 450px; /* Ajusta a altura */
+    }
+    .list img {
+        width: 85%; /* Aumenta proporcionalmente */
+        transform: translate(10%, -10%); /* Centraliza */
+    }
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+    .list {
+        height: 330px;
+    }
+    .list img {
+        width: 70%; /* Ajusta o tamanho */
+        transform: translate(21%, -8%);
+    }
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+    .top-texto {
+        margin-top: 20px;
+    }
+    .list {
+        height: 300px;
+    }
+    .list img {
+        width: 130%;
+        transform: translate(-15%, -10%);
+    }
+}
+
+@media (orientation: landscape) and (max-width: 480px) {
+    .list {
+        height: 250px;
+    }
+    .list img {
+        width: 140%; /* Redimensiona ainda mais */
+        transform: translate(-20%, -10%);
+    }
+}
+
+/* Ajustes gerais para landscape com telas muito pequenas */
+@media (orientation: landscape) and (max-width: 360px) {
+    .list {
+        height: 200px;
+    }
+    .list img {
+        width: 150%; /* Adaptação final */
+        transform: translate(-25%, -5%);
+    }
+}

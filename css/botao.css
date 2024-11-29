@@ -1,0 +1,45 @@
+/* Texto do topo */
+.top-texto {
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilo base para os botões */
+.buttons-container {
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.active {
+    background-color: #ff4545;
+    color: white;
+}
+
+button.toggle-btn {
+    position: absolute;
+    bottom: 20px;
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.toggle-btn:hover {
+    background-color: #0056b3;
+}
