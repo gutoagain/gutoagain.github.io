@@ -43,7 +43,7 @@
         height: 500px;
     }
     .list img {
-        width: 100%; /* Diminui proporcionalmente */
+        width: 90%; /* Diminui proporcionalmente */
     }
 }
 
@@ -55,7 +55,7 @@
         height: 400px;
     }
     .list img {
-        width: 100%; /* Diminui proporcionalmente */
+        width: 90%; /* Diminui proporcionalmente */
     }
 }
 
@@ -67,7 +67,7 @@
         height: 400px;
     }
     .list img {
-        width: 140%; /* Reduz ainda mais em telas pequenas */
+        width: 100%; /* Reduz ainda mais em telas pequenas */
         transform: translate(-13%, -10%);
     }    
 }
@@ -78,7 +78,7 @@
     }
     .list img {
         width: 135%; /* Adapta para dispositivos móveis */
-        transform: translate(-12%, -0%);
+        transform: translate(-15%, 6%);
     }
 }
 
@@ -88,7 +88,7 @@
     }
     .list img {
         width: 135%; /* Adapta para dispositivos móveis */
-        transform: translate(-12%, 8%);
+        transform: translate(-15%, 8%);
     }
 }
 
