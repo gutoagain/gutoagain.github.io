@@ -104,7 +104,7 @@
     }
     .list img {
         width: 85%; /* Aumenta proporcionalmente */
-        transform: translate(10%, -10%); /* Centraliza */
+        transform: translate(7%, -5%); /* Centraliza */
     }
 }
 
