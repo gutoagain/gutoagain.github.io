@@ -23,12 +23,12 @@
 
 /* Estilo para as imagens dentro do li */
 .list img {
-    width: 100%; /* Inicialmente maior que a div */
+    width: 90%; /* Inicialmente maior que a div */
     height: auto; /* Mantém proporção */
     position: initial; /* Permite o alinhamento relativo à div */
     top: 50%;
     left: 50%;
-    transform: translate(-0%, -10%); /* Centraliza a imagem dentro da div */
+    transform: translate(3%, 1%); /* Centraliza a imagem dentro da div */
     cursor: all-scroll;
 }
 
@@ -88,7 +88,7 @@
     }
     .list img {
         width: 135%; /* Adapta para dispositivos móveis */
-        transform: translate(-12%, 08%);
+        transform: translate(-12%, 8%);
     }
 }
 
