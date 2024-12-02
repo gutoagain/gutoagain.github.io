@@ -68,7 +68,7 @@
     }
     .list img {
         width: 100%; /* Reduz ainda mais em telas pequenas */
-        transform: translate(-13%, -10%);
+        transform: translate(-2%, 5%);
     }    
 }
 
