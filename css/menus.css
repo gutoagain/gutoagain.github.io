@@ -78,7 +78,7 @@
     }
     .list img {
         width: 135%; /* Adapta para dispositivos móveis */
-        transform: translate(-15%, 6%);
+        transform: translate(-12%, 6%);
     }
 }
 
