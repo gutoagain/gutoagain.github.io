@@ -28,7 +28,7 @@
     position: initial; /* Permite o alinhamento relativo à div */
     top: 50%;
     left: 50%;
-    transform: translate(5%, 1%); /* Centraliza a imagem dentro da div */
+    transform: translate(3%, 1%); /* Centraliza a imagem dentro da div */
     cursor: all-scroll;
 }
 
@@ -78,7 +78,7 @@
     }
     .list img {
         width: 135%; /* Adapta para dispositivos móveis */
-        transform: translate(-12%, 6%);
+        transform: translate(-15%, 6%);
     }
 }
 
@@ -88,7 +88,7 @@
     }
     .list img {
         width: 135%; /* Adapta para dispositivos móveis */
-        transform: translate(-13%, 8%);
+        transform: translate(-15%, 8%);
     }
 }
 
