@@ -28,7 +28,7 @@
     position: initial; /* Permite o alinhamento relativo à div */
     top: 50%;
     left: 50%;
-    transform: translate(6%, -1%); /* Centraliza a imagem dentro da div */
+    transform: translate(4%, -5%); /* Centraliza a imagem dentro da div */
     cursor: all-scroll;
 }
 
@@ -43,7 +43,7 @@
         height: 500px;
     }
     .list img {
-        width: 90%; /* Diminui proporcionalmente */
+        width: 100%; /* Diminui proporcionalmente */
     }
 }
 
@@ -55,7 +55,7 @@
         height: 400px;
     }
     .list img {
-        width: 90%; /* Diminui proporcionalmente */
+        width: 100%; /* Diminui proporcionalmente */
     }
 }
 
@@ -67,8 +67,8 @@
         height: 400px;
     }
     .list img {
-        width: 100%; /* Reduz ainda mais em telas pequenas */
-        transform: translate(-2%, 5%);
+        width: 140%; /* Reduz ainda mais em telas pequenas */
+        transform: translate(-13%, -10%);
     }    
 }
 
@@ -77,8 +77,8 @@
         height: 330px;
     }
     .list img {
-        width: 130%; /* Adapta para dispositivos móveis */
-        transform: translate(-12%, 5%);
+        width: 135%; /* Adapta para dispositivos móveis */
+        transform: translate(-12%, -0%);
     }
 }
 
@@ -88,7 +88,7 @@
     }
     .list img {
         width: 135%; /* Adapta para dispositivos móveis */
-        transform: translate(-15%, 8%);
+        transform: translate(-12%, 08%);
     }
 }
 
@@ -104,7 +104,7 @@
     }
     .list img {
         width: 85%; /* Aumenta proporcionalmente */
-        transform: translate(7%, -5%); /* Centraliza */
+        transform: translate(10%, -10%); /* Centraliza */
     }
 }
 
