@@ -28,7 +28,7 @@
     position: initial; /* Permite o alinhamento relativo à div */
     top: 50%;
     left: 50%;
-    transform: translate(4%, -5%); /* Centraliza a imagem dentro da div */
+    transform: translate(5%, -0%); /* Centraliza a imagem dentro da div */
     cursor: all-scroll;
 }
 

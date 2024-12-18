@@ -7,7 +7,7 @@ $(function() {
     var isDragging = false; // Estado para verificar se está arrastando
     var currentIndex = 0;   // Índice da imagem visível
     var lastMouseX = 0;     // Posição anterior do mouse
-    var totalImages = 17;   // Número total de imagens (0 a 18)
+    var totalImages = 32;   // Número total de imagens (0 a 18)
 
     // Adicionar uma classe para animações suaves via CSS
     $('.list li').css({
